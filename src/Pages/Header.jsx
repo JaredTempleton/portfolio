@@ -4,8 +4,8 @@ function Header () {
     return (
         <div id="Header">
             <div>
-                <code>Hi, my name is </code>
-                <code>Jared Templeton</code>
+                <p>Hi, my name is </p>
+                <h1>Jared Templeton</h1>
             </div>
             <button>
             <a 
@@ -13,7 +13,7 @@ function Header () {
                     rel="noreferrer"
                     href="https://github.com/JaredTempleton"
                     alt="Link to my github">
-                <code>Check out my Github</code>
+                Check out my Github
             </a>
             </button>
         </div>
