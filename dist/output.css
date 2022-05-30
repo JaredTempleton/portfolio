@@ -479,12 +479,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 2.5rem;
 }
 
-.mt-60 {
-  margin-top: 15rem;
+.mt-36 {
+  margin-top: 9rem;
 }
 
 .flex {
   display: flex;
+}
+
+.table {
+  display: table;
 }
 
 .table-cell {
@@ -493,6 +497,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .flex-col {
@@ -519,9 +527,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 1px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-lightblue_vs {
   --tw-border-opacity: 1;
   border-color: rgb(133 216 251 / var(--tw-border-opacity));
+}
+
+.border-b-\[\#e6f1ff\] {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(230 241 255 / var(--tw-border-opacity));
+}
+
+.border-opacity-25 {
+  --tw-border-opacity: 0.25;
 }
 
 .p-3 {
@@ -530,6 +551,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pt-60 {
   padding-top: 15rem;
+}
+
+.pb-72 {
+  padding-bottom: 18rem;
 }
 
 .text-justify {
@@ -541,14 +566,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-lightblue_vs {
@@ -567,7 +592,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body {
-  background-color: #1e1e1e;
+  background-color: #707070;
 }
 
 .hover\:bg-lightblue_vs:hover {
