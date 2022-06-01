@@ -14,21 +14,23 @@ const About = () => {
         <div id="About" className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justify">
             <div>
                 <div className="table">
-                    <pre className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justify">
+                    <pre className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
                         About Me
                     </pre>
                     <div className="table-cell border-b border-b-[#e6f1ff] border-opacity-25 w-full"></div>
                 </div>
             </div>
-            <div className="text-[#b9bca2] text-lg mt-5">
+            <div className="text-brown_vs text-lg mt-5">
                 <pre>
                     Hello! My name is Jared Templeton. Looking for career change I found web development.
-                    After enlisting in the Universty of Central Florida's Full Stack boot camp I knew this was the line of work I wanted to execute.
-                    Now hoping for a chance to step into the development world and make some extraordinary responsive web apps.
-                    While no where near an expert, I strive to learn and educate myself more everyday and hope to get started with a company soon.
+                    <br />After enlisting in the Universty of Central Florida's Full Stack boot camp I knew this was the line of work I wanted to execute.
+                    <br />Now hoping for a chance to step into the development world and make some extraordinary responsive web apps.
+                    <br />While no where near an expert, I strive to learn and educate myself more everyday and hope to get started with a company soon.
                 </pre>
+                <br />
+                <br />
                 <pre>Here are some technologies I currently work with: </pre>
-                <div className="grid grid-cols-3 gap-2 text-sm mt-5 text-brown_vs">
+                <div className="grid grid-cols-4 gap-2 text-sm mt-5 text-brown_vs">
                     <div className="flex flex-row  mb-3">
                         <img
                             src={JavaScript}

@@ -1,10 +1,12 @@
 import React from "react";
+import { PaperClipIcon } from "@heroicons/react/outline"
 
 const Resume = () => {
     return (
         <div id="Resume" className="lg:w-1/2 mt-64 mb-4 text-justify mx-12 lg:mr-60 lg:ml-auto">
             <div>
                 <div className="table">
+                <PaperClipIcon className="h-5 w-5 mr-4 text-yellow_vs" />{" "}
                     <pre className="table-cell text-[#e6f1ff] text-3xl mt-5 whitespace-nowrap">
                         Resume
                     </pre>
