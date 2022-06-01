@@ -1,11 +1,11 @@
 import { React, useState } from "react";
 
 import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
-import { JS } from "../assets/icons/JS.png"
+import JS from "../assets/icons/JS.png"
 
-import { Git } from "../assets/icons/GitHubLogo.png"
-import { LinkedIn } from "../assets/icons/LinkedinLogo.png"
-import { Mail } from "../assets/icons/MailLogo.png"
+import Git from "../assets/icons/GitHubLogo.png"
+import LinkedIn from "../assets/icons/LinkedinLogo.png"
+import Mail from "../assets/icons/MailLogo.png"
 
 const Sidebar = () => {
     const [showWeb, SetShowWeb] = useState(true);
