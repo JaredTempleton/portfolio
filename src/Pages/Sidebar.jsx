@@ -1,24 +1,31 @@
 import { React, useState } from "react";
 
+import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
+import { JS } from "../assets/icons/JS.png"
+
+import { Git } from "../assets/icons/GitHubLogo.png"
+import { LinkedIn } from "../assets/icons/LinkedinLogo.png"
+import { Mail } from "../assets/icons/MailLogo.png"
+
 const Sidebar = () => {
-    const [showWeb, SetShowWebList] = useState(true);
-    const [showProjects, SetShowProjectsList] = useState(true);
+    const [showWeb, SetShowWeb] = useState(true);
+    const [showProjects, SetShowProjects] = useState(true);
 
     const Menu = () => (
         <div>
             <a href="/">
-                <div>
+                <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
                     <img
-                        src={ }
+                        src={JS}
                         alt="JavaScript Icon"
                     />
                     <p>RefreshR</p>
                 </div>
             </a>
             <a href="/">
-                <div>
+                <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
                     <img
-                        src={ }
+                        src={JS}
                         alt="JavaScript Icon"
                     />
                     <p>MacroMatics</p>
@@ -27,7 +34,7 @@ const Sidebar = () => {
             <a href="/">
                 <div>
                     <img
-                        src={ }
+                        src={JS}
                         alt="JavaScript Icon"
                     />
                     <p>Third Project</p>
@@ -36,7 +43,7 @@ const Sidebar = () => {
             <a href="/">
                 <div>
                     <img
-                        src={ }
+                        src={JS}
                         alt="JavaScript Icon"
                     />
                     <p>Fourth Project</p>
@@ -46,6 +53,64 @@ const Sidebar = () => {
     );
 
     return (
-        <></>
+        <div className="text-[#a2aabc] text-lg mt-5 flex bg-[#262526] h-full">
+      <div>
+        <div
+          className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
+          onClick={() => SetShowProjects(!showProjects)}
+        >
+          {showProjects ? (
+            <ChevronDownIcon className="w-7 mr-1" />
+          ) : (
+            <ChevronRightIcon className="w-7 mr-1" />
+          )}
+          <p>Projects</p>
+        </div>
+        {showProjects ? (
+          <>
+            <div
+              className="flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] font-bold w-72"
+              onClick={() => SetShowWeb(!showWeb)}
+            >
+              {showWeb ? (
+                <ChevronDownIcon className="w-7 mr-1  ml-5" />
+              ) : (
+                <ChevronRightIcon className="w-7 mr-1  ml-5" />
+              )}
+
+              <p>Web</p>
+            </div>
+            {showWeb ? <Menu /> : null}
+          </>
+        ) : null}
+        <div className="absolute inset-x-0 bottom-10 ">
+          <div className="flex px-6 space-x-7">
+            <a href="/">
+              <img
+                src={Git}
+                alt="GitHub"
+                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+              />
+            </a>
+            <a href="/">
+              <img
+                src={LinkedIn}
+                alt="Linkedin"
+                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+              />
+            </a>
+            <a href="/">
+              <img
+                src={Mail}
+                alt="Mail"
+                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     );
 };
+
+export default Sidebar

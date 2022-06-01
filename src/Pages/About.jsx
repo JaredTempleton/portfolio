@@ -15,7 +15,7 @@ const About = () => {
             Now hoping for a chance to step into the development world and make some extraordinary responsive web apps. 
             While no where near an expert, I strive to learn and educate myself more everyday and hope to get started with a company soon.
             </pre>
-            <h4>Here are some technologies I currently work with: </h4>
+            <pre>Here are some technologies I currently work with: </pre>
             </div>
         </div>
     )
