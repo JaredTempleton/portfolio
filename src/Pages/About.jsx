@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
     return (
-        <div id="About">
+        <div id="About" className="mx-12 mt-60 lg:mx-60 items-center justify-center lg:w-1/2 text-justify">
             <div>
-                <h2 >
+                <pre >
                 About Me
-                </h2>
+                </pre>
             </div>
-            <div>
+            <div className="text-[#b9bca2] text-lg mt-5">
             <pre>
             Hello! My name is Jared Templeton. Looking for career change I found web development. 
             After enlisting in the Universty of Central Florida's Full Stack boot camp I knew this was the line of work I wanted to execute. 

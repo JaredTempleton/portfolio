@@ -483,6 +483,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 9rem;
 }
 
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .flex {
   display: flex;
 }
@@ -589,6 +593,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#a2aabc\] {
   --tw-text-opacity: 1;
   color: rgb(162 170 188 / var(--tw-text-opacity));
+}
+
+.text-\[\#b9bca2\] {
+  --tw-text-opacity: 1;
+  color: rgb(185 188 162 / var(--tw-text-opacity));
 }
 
 body {
