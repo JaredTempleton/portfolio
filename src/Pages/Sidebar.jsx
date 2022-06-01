@@ -4,7 +4,7 @@ import { ChevronDownIcon, ChevronRightIcon } from "@heroicons/react/solid";
 import JS from "../assets/icons/JS.png"
 
 import Git from "../assets/icons/GitHubLogo.png"
-import LinkedIn from "../assets/icons/LinkedinLogo.png"
+import LinkedIn from "../assets/icons/LinkedInLogo.png"
 import Mail from "../assets/icons/MailLogo.png"
 
 const Sidebar = () => {
@@ -89,21 +89,21 @@ const Sidebar = () => {
         ) : null}
         <div className="absolute inset-x-0 bottom-10 ">
           <div className="flex px-6 space-x-7">
-            <a href="/">
+            <a href="https://github.com/JaredTempleton" target="_blank" rel="noreferrer">
               <img
                 src={Git}
                 alt="GitHub"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="https://www.linkedin.com/in/jared-templeton-8629a9232/" target="_blank" rel="noreferrer">
               <img
                 src={LinkedIn}
                 alt="Linkedin"
                 className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
               />
             </a>
-            <a href="/">
+            <a href="mailto:jaredunicycles@gmail.com">
               <img
                 src={Mail}
                 alt="Mail"
