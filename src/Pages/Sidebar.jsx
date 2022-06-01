@@ -13,38 +13,42 @@ const Sidebar = () => {
 
     const Menu = () => (
         <div>
-            <a href="/">
+            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
                 <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
                     <img
                         src={JS}
                         alt="JavaScript Icon"
+                        className="w-7 mr-1  ml-5 text-yellow_vs"
                     />
                     <p>RefreshR</p>
                 </div>
             </a>
-            <a href="/">
+            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
                 <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
                     <img
                         src={JS}
                         alt="JavaScript Icon"
+                        className="w-7 mr-1  ml-5 text-yellow_vs"
                     />
                     <p>MacroMatics</p>
                 </div>
             </a>
-            <a href="/">
+            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
                 <div>
                     <img
                         src={JS}
                         alt="JavaScript Icon"
+                        className="w-7 mr-1  ml-5 text-yellow_vs"
                     />
                     <p>Third Project</p>
                 </div>
             </a>
-            <a href="/">
+            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
                 <div>
                     <img
                         src={JS}
                         alt="JavaScript Icon"
+                        className="w-7 mr-1  ml-5 text-yellow_vs"
                     />
                     <p>Fourth Project</p>
                 </div>
