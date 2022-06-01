@@ -581,6 +581,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.25rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-0 {
+  height: 0px;
+}
+
+.h-11 {
+  height: 2.75rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -619,6 +635,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-5 {
   width: 1.25rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-11 {
+  width: 2.75rem;
 }
 
 .cursor-pointer {
@@ -824,8 +848,16 @@ body {
   height: 3rem;
 }
 
+.hover\:h-14:hover {
+  height: 3.5rem;
+}
+
 .hover\:w-12:hover {
   width: 3rem;
+}
+
+.hover\:w-20:hover {
+  width: 5rem;
 }
 
 .hover\:cursor-pointer:hover {

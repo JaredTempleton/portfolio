@@ -34,7 +34,7 @@ const Sidebar = () => {
                 </div>
             </a>
             <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
-                <div>
+                <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
                     <img
                         src={JS}
                         alt="JavaScript Icon"
@@ -44,7 +44,7 @@ const Sidebar = () => {
                 </div>
             </a>
             <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
-                <div>
+                <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
                     <img
                         src={JS}
                         alt="JavaScript Icon"
@@ -93,21 +93,21 @@ const Sidebar = () => {
               <img
                 src={Git}
                 alt="GitHub"
-                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                className="h-12 w-15 text-yellow_vs hover:cursor-pointer hover:h-14 hover:w-18"
               />
             </a>
             <a href="https://www.linkedin.com/in/jared-templeton-8629a9232/" target="_blank" rel="noreferrer">
               <img
                 src={LinkedIn}
                 alt="Linkedin"
-                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                className="h-12 w-15 text-yellow_vs hover:cursor-pointer hover:h-14 hover:w-18"
               />
             </a>
             <a href="mailto:jaredunicycles@gmail.com">
               <img
                 src={Mail}
                 alt="Mail"
-                className="h-10 w-10 text-yellow_vs hover:cursor-pointer hover:h-12 hover:w-12"
+                className="h-12 w-15 text-yellow_vs hover:cursor-pointer hover:h-14 hover:w-18"
               />
             </a>
           </div>
