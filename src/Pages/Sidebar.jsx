@@ -33,14 +33,14 @@ const Sidebar = () => {
                     <p>MacroMatics</p>
                 </div>
             </a>
-            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
+            <a target="_blank" rel="noreferrer" href="https://jaredtempleton.github.io/portfolio-simple/">
                 <div className="flex whitespace-nowrap items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] focus:bg-slate-300 ml-12 w-60">
                     <img
                         src={JS}
                         alt="JavaScript Icon"
                         className="w-7 mr-1  ml-5 text-yellow_vs"
                     />
-                    <p>Third Project</p>
+                    <p>Simple Portfolio</p>
                 </div>
             </a>
             <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">

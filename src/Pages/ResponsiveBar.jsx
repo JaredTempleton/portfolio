@@ -12,8 +12,8 @@ const JS = require("../assets/icons/JS.png");
 const MobileMenu = () => {
   const projects = [
     {
-      name: "First Project",
-      href: "#",
+      name: "RefreshR",
+      href: "https://macro-matics.herokuapp.com/",
       icon: <img
       src={JS}
       alt="JS Icon"
@@ -22,8 +22,8 @@ const MobileMenu = () => {
       current: true,
     },
     {
-      name: "Second Project",
-      href: "#",
+      name: "MacroMatics",
+      href: "https://macro-matics.herokuapp.com/",
       icon:  <img
       src={JS}
       alt="JS Icon"
@@ -32,8 +32,8 @@ const MobileMenu = () => {
       current: false,
     },
     {
-      name: "Third Project",
-      href: "#",
+      name: "Simple Portfolio",
+      href: "https://jaredtempleton.github.io/portfolio-simple/",
       icon: <img
       src={JS}
       alt="JS Icon"
