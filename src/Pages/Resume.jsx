@@ -21,7 +21,9 @@ const Resume = () => {
                     </div>
                     <div className="w-3/4">
                         <code className="text-blue_vs">Universty of Central Florida</code>
+                        <br />
                         <code className="italic text-sm text-lightblue_vs">Full Stack Web Development Boot Camp</code>
+                        <br />
                         <code className="text-xs text-brown_vs">(December 2021 - June 2022)</code>
                     </div>
                 </div>
@@ -31,12 +33,17 @@ const Resume = () => {
                     </div>
                     <div className="w-3/4">
                         <code className="text-blue_vs">Shift Leader</code>
+                        <br />
                         <code className="italic text-sm text-lightblue_vs">Chili's Grill and Bar - Trinity, Florida</code>
-                        <code className="text-xs text-brown_vs">June 2015 - codesent</code>
-                        <code className="text-sm">What I did there</code>
-                        <code className="text-sm">What I did there</code>
-                        <code className="text-sm">What I did there</code>
-                        <code className="text-sm">What I did there</code>
+                        <br />
+                        <code className="text-xs text-brown_vs">June 2015 - Present</code>
+                        <br />
+                        <code className="text-sm">
+                        <br />• Exhibited exceptional customer service skills by being friendly, knowledgeable, and accommodating
+                        <br />• Helped handle customer conflict resolution in a professional and timely manner while keeping it beneficial for the company
+                        <br />• High proficiency in multitasking displayed to maintain a high standard, professional, and timely dining service
+                        <br />• Fast decision making, high attention to detail, resourcefulness, and interpersonal skills were strengthened immensely with this job
+                        </code>
                     </div>
                 </div>
                 <div className="flex flex-row pt-10 flex-wrap">
@@ -44,11 +51,14 @@ const Resume = () => {
                         <code className="text-yellow_vs">Skills</code>
                     </div>
                     <div className="w-3/4">
-                        <code className="text-sm">My skills</code>
-                        <code className="text-sm">My skills</code>
-                        <code className="text-sm">My skills</code>
-                        <code className="text-sm">My skills</code>
-                        <code className="text-sm">My skills</code>
+                        <code className="text-sm">
+                            <br />• Organization
+                            <br />• Communication
+                            <br />• Teamwork
+                            <br />• Problem solving
+                            <br />• Creative thinking
+                            <br />• Decision making
+                        </code>
                     </div>
                 </div>
             </div>
