@@ -6,6 +6,7 @@ import Resume from "./Resume";
 import Contact from "./Contact"
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import ResponsiveBar from "./ResponsiveBar"
 
 const Home = () => {
     const [showPage, setShowPage] = useState("home");
@@ -16,6 +17,9 @@ const Home = () => {
         <Sidebar />
       </div>
       <div className="bg-[#1e1e1e] lg:pl-72 h-full ">
+      <div className="lg:hidden">
+          <ResponsiveBar />
+        </div>
         <div className="bg-[#424042] h-16 w-full fixed hidden lg:block">
           <Navbar
             showPage={showPage}

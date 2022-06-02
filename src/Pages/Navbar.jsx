@@ -1,4 +1,3 @@
-
 import { React, useState } from "react";
 import tw from "tailwind-styled-components";
 import { XIcon } from "@heroicons/react/solid";
@@ -194,4 +193,6 @@ const NavBar = ({ showPage, setShowPage }) => {
     </div>
   );
 };
+
+
 export default NavBar;
