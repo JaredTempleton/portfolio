@@ -3,9 +3,6 @@
   "homepage": "http://jaredtempleton.com",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "16.x"
-  },
   "dependencies": {
     "@headlessui/react": "^1.6.4",
     "@heroicons/react": "^1.0.6",
