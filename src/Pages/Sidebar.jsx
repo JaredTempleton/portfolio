@@ -13,7 +13,7 @@ const Sidebar = () => {
 
     const Menu = () => (
         <div>
-            <a target="_blank" rel="noreferrer" href="https://macro-matics.herokuapp.com/">
+            <a target="_blank" rel="noreferrer" href="https://mighty-reef-66523.herokuapp.com/">
                 <div className="ml-12 flex items-center hover:cursor-pointer hover:bg-opacity-80 hover:bg-[#2b2a2a] w-60">
                     <img
                         src={JS}

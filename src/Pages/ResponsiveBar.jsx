@@ -13,7 +13,7 @@ const MobileMenu = () => {
   const projects = [
     {
       name: "RefreshR",
-      href: "https://macro-matics.herokuapp.com/",
+      href: "https://mighty-reef-66523.herokuapp.com/",
       icon: <img
       src={JS}
       alt="JS Icon"
