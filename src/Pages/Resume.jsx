@@ -20,7 +20,7 @@ const Resume = () => {
                         <code className="text-yellow_vs">Education</code>
                     </div>
                     <div className="w-3/4">
-                        <code className="text-blue_vs">Universty of Central Florida</code>
+                        <code className="text-blue_vs">University of Central Florida</code>
                         <br />
                         <code className="italic text-sm text-lightblue_vs">Full Stack Web Development Boot Camp</code>
                         <br />

@@ -13,7 +13,7 @@ const Contact = () => {
             </div>
             <div className="text-[#a2aabc] text-lg mt-5 mx-12 lg:mx-60 flex flex-col items-center text-justify">
                 <code>
-                    Currently looking for a new opportunitiy, feel free to contact me with the button below.
+                    Currently looking for a new opportunity, feel free to contact me with the button below.
                     <br />I'll get back with you shortly.
                 </code>
                 <button className=" border border-lightblue_vs text-lightblue_vs mt-10 p-3 rounded hover:bg-opacity-10 hover:bg-lightblue_vs w-1/2">

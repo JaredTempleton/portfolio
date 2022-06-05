@@ -25,7 +25,7 @@ const About = () => {
                 <div className="text-brown_vs text-lg mt-5">
                     <code>
                         Hello! My name is Jared Templeton. Looking for career change I found web development.
-                        After enlisting in the Universty of Central Florida's Full Stack boot camp I knew this was the carrer for me.
+                        After enlisting in the University of Central Florida's Full Stack boot camp I knew this was the career for me.
                         Now hoping for a chance to step into the development world and make some extraordinary responsive web apps.
                         While no where near an expert, I'm passionate about this field and strive to learn and educate myself more everyday so I can get started with a company soon.
                     </code>
